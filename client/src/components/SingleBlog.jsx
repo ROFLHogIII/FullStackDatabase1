@@ -19,8 +19,8 @@ class SingleBlog extends Component {
     render() {
         return (
             <Fragment>
-                <h1>Hellow from Blog Post {this.props.match.params.id}</h1>
-                {/* <div className="col-md-3">
+                <h1>Hello from Blog Post {this.props.match.params.id}</h1>
+                <div className="col-md-3">
                     <div className="card border-dark mb-3">
                         <div className="card-header">
                             <p>{this.state.singleBlog.title}</p>
@@ -29,7 +29,7 @@ class SingleBlog extends Component {
                             <p className="card-text">{this.state.singleBlog.content}</p>
                         </div>
                     </div>
-                </div> */}
+                </div>
             </Fragment>
         );
     }

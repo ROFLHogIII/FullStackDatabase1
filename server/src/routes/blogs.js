@@ -12,7 +12,7 @@ router.get('/', (req, res) => {
 });
 
 router.get('/:id', (req, res) => {
-    blogs.getOne(res.params.id)
+    blogs.getOne(req.params.id)
         .then(response => {
             res.send(response)
         })
